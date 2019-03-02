@@ -3,7 +3,7 @@ s2 = "paragraph"
 
 
 def n_gram(n, arg_iterable):
-    return [arg_iterable[i:i+n] for i in range(len(arg_iterable)-n+1)]
+    return [arg_iterable[i:i + n] for i in range(len(arg_iterable) - n + 1)]
 
 
 X = set(n_gram(2, s1))

@@ -1,2 +1,2 @@
-with open("./hightemp.txt") as f:
+with open("./hightemp.txt", encoding="utf-8") as f:
     print(len(f.readlines()))  # 24
